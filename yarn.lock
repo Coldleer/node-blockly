@@ -249,6 +249,10 @@ cssom@0.3.x, "cssom@>= 0.3.0 < 0.4.0", "cssom@>= 0.3.2 < 0.4.0":
   dependencies:
     cssom "0.3.x"
 
+currify@^2.0.3:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/currify/-/currify-2.0.6.tgz#86064386778e315c043382d53ba278efc6a9ef87"
+
 dashdash@^1.12.0:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/dashdash/-/dashdash-1.14.1.tgz#853cfa0f7cbe2fed5de20326b8dd581035f6e2f0"
@@ -517,6 +521,10 @@ fs-exists-sync@^0.1.0:
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
+
+fullstore@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/fullstore/-/fullstore-1.1.0.tgz#a7a8b00ca07d86faca05fb825c45e5d1c3bba97e"
 
 gaze@^0.5.1:
   version "0.5.2"
@@ -1568,6 +1576,13 @@ sequencify@~0.0.7:
 sigmund@~1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/sigmund/-/sigmund-1.0.1.tgz#3ff21f198cad2175f9f3b781853fd94d0d19b590"
+
+smalltalk@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/smalltalk/-/smalltalk-3.1.1.tgz#112c789b08f77de2280b98526b6df3e89d15cbbd"
+  dependencies:
+    currify "^2.0.3"
+    fullstore "^1.0.0"
 
 sntp@2.x.x:
   version "2.1.0"

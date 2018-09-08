@@ -12,6 +12,7 @@
   ],
   "dependencies": {
     "jsdom": "^11.3.0",
+    "smalltalk": "^3.1.1",
     "xmlshim": "^0.2.1"
   },
   "devDependencies": {
